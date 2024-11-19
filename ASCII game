@@ -1,0 +1,8 @@
+t = input()
+result=''
+for n in t:
+    if 97<=ord(n)<=122:
+        result += chr(ord(n)-32)
+    if 65<=ord(n)<=90:
+        result += chr(ord(n)+32)
+print(result)
