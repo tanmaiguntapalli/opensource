@@ -1,0 +1,4 @@
+T = int(input())
+pages = 1000*T
+notebooks = pages / 100
+print(int(notebooks))
