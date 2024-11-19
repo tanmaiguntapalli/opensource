@@ -1,0 +1,11 @@
+stri=input()
+red_str=""
+count=1
+for t in range(1, len(stri)):
+    if stri[t]==stri[t-1]:
+        count+=1
+    else:
+        red_str += stri[t-1]+str(count)
+        count=1
+red_str += stri[-1]+str(count)
+print(red_str)
