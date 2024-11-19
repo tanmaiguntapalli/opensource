@@ -1,0 +1,4 @@
+m = int(input())
+n = m - (m*0.1)
+o = m - 100
+print(int(min(n,o)))
