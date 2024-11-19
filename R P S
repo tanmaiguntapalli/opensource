@@ -1,0 +1,10 @@
+n,t = input().split()
+if n not in {'R', 'P','S'} and t not in {'R', 'P', 'S'}:
+    print("Enter valid input!!! ")
+else:
+    if (n=='R' and t=='P') or (n=='P' and t=='S') or (n=='S' and t=='R'):
+        print("Charan")
+    elif (t=='R' and n=='P') or (t=='P' and n=='S') or (t=='S' and n=='R'):
+        print("Vignesh")
+    else:
+        print("NULL")
