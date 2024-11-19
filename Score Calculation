@@ -1,0 +1,4 @@
+n=int(input())
+for t in range(0,n):
+    i,j=map(int,input().split())
+    print(j*(i//10))
