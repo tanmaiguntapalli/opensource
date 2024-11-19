@@ -1,0 +1,7 @@
+a,b,c = map(int,input().split())
+tot_minutes = c * 24 * 60
+minutes = a*b
+if (minutes <= tot_minutes):
+    print("YES")
+else:
+    print("NO")
